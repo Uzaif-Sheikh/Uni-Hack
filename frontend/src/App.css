@@ -2,6 +2,146 @@
   text-align: center;
 }
 
+/* sidebar Nav */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+  
+
+  
+.menuNav.showMenu {
+    width: 30%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(14, 14, 138);
+    background: rgb(14, 14, 138);
+
+}
+  
+a {
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: none;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.menuNav li:first-child {
+    margin-top: 7rem;
+}
+
+#hi {
+    position: absolute;
+    left: 200px;
+}
+
+.ag-theme-alpine {
+    position: absolute;
+    left: 6%;
+    width: 88%;
+    height: 800px;
+    bottom: 300px;
+    top: 30%;
+    margin-top: 20px;
+}
+
+#select_row {
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    width: 88%;
+    margin-bottom: 20px;
+}
+
+#select_column {
+    position: absolute;
+    top: 13%;
+    left: 6%;
+    width: 88%;
+}
+
+#weldclass_image {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+
+}
+
+#img {
+    position:relative;
+    width: 50%;
+    height: 60%;
+}
+
+@media (max-width: 800px) {
+    
+}
+
+.bm-burger-button {
+    position: absolute;
+    width: 39px;
+    height: 4%;
+    left: 2%;
+    top: 4%;
+}
+
+.bm-burger-bars {
+    background: black;
+}
+
+
+.bm-burger-bars-hover {
+    background: rgb(10, 10, 109);
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+.bm-cross {
+    background: #02080c;
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+}
+  
+  /* General sidebar styles */
+.bm-menu {
+    background: #393b49;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+  
+  /* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+    padding: 0.8em;
+}
+  
+  /* Wrapper for item list */
+.bm-item-list {
+    color: #acaa9e;
+    
+}
+  
+  /* Individual item */
+.bm-item {
+    display: inline-block;
+}
+  
+  /* Styling of overlay */
+.bm-overlay {
+    background: rgba(5, 5, 5, 0.3);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
