@@ -1,0 +1,18 @@
+"workbench.colorTheme": "Gruvbox Dark Hard",
+    "vim.handleKeys": {
+        "<C-h>": false,
+        "<C-f>": false,
+        // VS Code new marker @ next occurrence
+        "<C-w>": false,
+        // Copy
+        "<C-c>": false,
+    //     // Cut
+    //     "<C-x>": false,
+    //     // Paste
+        "<s-tab>": false,
+        "<C-v>": false,
+        "<C-z>": false,
+        "<C-j>": false,
+        "<C-k>": false,
+        "<C-S-p>": false,
+    },
